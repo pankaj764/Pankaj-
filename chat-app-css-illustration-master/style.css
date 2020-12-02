@@ -5,7 +5,7 @@ body{
     font-size: 14px;
     display: flex;
     background-repeat: no-repeat;
-    background-color: #FAFAFA;
+    background-color: #F4F1F8;
 }
 .b_{
     display: flex;
@@ -73,6 +73,9 @@ body{
     gap: 20px;
     font-size:9.2px ;
     display: block;
+}
+.textd{
+    color: hsl(270, 7%, 64%);
 }
 .phone_head{
     width: 50%;
@@ -258,6 +261,41 @@ body{
     text-align: right;
     width: 35%;
 }
+@media(max-width:320px){
+    body{
+        display: inline;
+    }
+    .body{
+        display: flex;
+    }
+    .description{
+        float: none;
+        text-align: center;
+        width: 85%;
+        margin-left:7.5%;
+    }
+    .bg{
+        margin-left: -105%;
+        margin-top: -5.5%;
+        width: 500px;
+        height: 400px;
+    }
+    .phone{
+        width: 70%;
+        margin-left: -40%;
+    }
+    .b_{
+       display: inline; 
+    }
+    .bg2{
+        background: none;
+        height: 0px;
+        width: 0px;
+    }
+}
+.textd{
+  color: hsl(270, 7%, 64%);
+}
 @media(max-width:375px){
     body{
         display: inline;
@@ -272,13 +310,13 @@ body{
         margin-left:7.5%;
     }
     .bg{
-        margin-left: -110%;
+        margin-left: -85%;
         margin-top: -5.5%;
         width: 500px;
         height: 400px;
     }
     .phone{
-        width: 70%;
+        width: 65%;
         margin-left: -35%;
     }
     .b_{
